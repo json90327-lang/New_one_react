@@ -4,20 +4,22 @@ import "./state.css"
 const State = () => {
 let [number,setnumber]=useState(0);
 let increamnent=()=>{
-    setnumber((prevnumber )=>{
-         return prevnumber+1;
-    });
-    setnumber((prevnumber)=>{
-        return prevnumber+1;
-    })
+    setnumber(number+1)
+    // setnumber((prevnumber )=>{
+    //      return prevnumber+1;
+    // });
+    // setnumber((prevnumber)=>{
+    //     return prevnumber+1;
+    // })
 }
 let decreament=()=>{
-    setnumber((prevnumber)=>{
-        return prevnumber-1
-    });
-    setnumber((prevnumber)=>{
-        return prevnumber-1
-    })
+    setnumber(number-1)
+    // setnumber((prevnumber)=>{
+    //     return prevnumber-1
+    // });
+    // setnumber((prevnumber)=>{
+    //     return prevnumber-1
+    // })
 
 }
   return (
