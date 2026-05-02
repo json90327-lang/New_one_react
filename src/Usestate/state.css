@@ -1,0 +1,10 @@
+.button{
+    background-color:red;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+.button1{
+    background-color: blue;
+    color:white;
+     box-shadow: 2px 2px 5px gray;
+}

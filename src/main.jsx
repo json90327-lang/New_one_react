@@ -1,9 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Event from './Events/Event'
-
+import State from './Usestate/State'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<Event/>
+<State/>
   </StrictMode>,
 )
