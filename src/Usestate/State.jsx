@@ -3,9 +3,10 @@ import { useState } from 'react';
 import "./state.css"
 const State = () => {
 let [number,setnumber]=useState(0);
-let increamnent=()=>{
+let increamnent=(e)=>{
+    e.preventDefault();
     setnumber(number+1)
-    // setnumber((prevnumber )=>{
+    // setnumber((pre vnumber )=>{
     //      return prevnumber+1;
     // });
     // setnumber((prevnumber)=>{
