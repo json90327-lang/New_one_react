@@ -8,7 +8,7 @@ const State2 = () => {
     age:18,
     color:"green",
     color2:"green",
-    color3:"green",
+    color3:"blue",
   };   
   const [data,setdata]=useState(object);
   const changeFirstName=()=>{
