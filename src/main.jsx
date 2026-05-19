@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Cal from './Calculator/Cal'
+import API from './API/API'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<Cal/>
+<API/>
   </StrictMode>
 )

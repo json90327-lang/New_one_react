@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.card{
+    width: 500px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.input{
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(18, 192, 70);
+    color: white;
+    cursor: pointer;
+}
+
+.btn1{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(214, 14, 14);
+    color: white;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(161, 133, 6);
+    color: white;
+    cursor: pointer;
+}
+
+.btn3{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(5, 136, 132);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+.result{
+    text-align: center;
+    color: red;
+}
+
+.result span{
+    color: black;
+}
