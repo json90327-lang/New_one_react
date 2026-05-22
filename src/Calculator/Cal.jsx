@@ -109,7 +109,7 @@ const Cal = () => {
             Multiply
           </button>
 
-          <button onClick={Divisible} className='btn3'>
+          <button onClick={Divisible} className='btn3 '>
             Divide
           </button>
 
